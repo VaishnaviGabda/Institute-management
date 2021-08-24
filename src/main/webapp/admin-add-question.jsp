@@ -9,7 +9,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
         <title>Admin - Add Question4</title>
-
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		 <link href="assets/css/chartist.min.css" rel="stylesheet" media="screen">
