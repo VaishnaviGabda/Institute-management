@@ -82,14 +82,14 @@
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<i class="fa fa-user-secret menu-icon"></i> EXAMINERS <span class="caret"></span>
+							<i class="fa fa-user-secret menu-icon"></i> staffS <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li>							
 								<a href="admin-add-teacher.jsp"><i class="fa fa-caret-right"></i>ADD</a>
 							</li>
 							<li>
-								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL EXAMINERS</a>
+								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL staffS</a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
@@ -155,7 +155,7 @@
 										<div class="stats">
 											<div class="col-xs-8 count">
 												<h1>111</h1>
-												<p>EXAMINERS</p>
+												<p>staffS</p>
 											</div>
 											<div class="col-xs-4 icon">
 												<i class="fa fa-user-secret danger-icon"></i>

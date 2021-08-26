@@ -42,7 +42,7 @@
 		      }
 		      else
 		      {
-		    	  var data="Please Enter Valid Examiner Id";
+		    	  var data="Please Enter Valid staff Id";
                   e.innerHTML=data;
 		           return false;
 		      }

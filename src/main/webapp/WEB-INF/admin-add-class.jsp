@@ -2,15 +2,13 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
- 
-
-	<head>
+<head>
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>Examiner - Add Course</title>
+        <title>Admin - Add Course</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -47,10 +45,10 @@
 						</a>
 						<ul class="dropdown-menu notification-list">
 							<li>
-								<a href="examiner-profile.jsp"><i class="fa fa-users"></i> USER PROFILE</a>
+								<a href="admin-profile.jsp"><i class="fa fa-users"></i> USER PROFILE</a>
 							</li>
 							<li>
-								<a href="examiner-change-pass.jsp"><i class="fa fa-key"></i> CHANGE PASSWORD</a>
+								<a href="admin-change-pass.jsp"><i class="fa fa-key"></i> CHANGE PASSWORD</a>
 							</li>
 							<li>
 								<div class="all-notifications">
@@ -68,7 +66,7 @@
 			<div class="sidebar-nav-wrapper" id="sidebar-wrapper">
 				<ul class="sidebar-nav">
 					<li>
-						<a href="examinerDashboard.jsp"><i class="fa fa-home menu-icon"></i> HOME</a>
+						<a href="adminDashboard.jsp"><i class="fa fa-home menu-icon"></i> HOME</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -76,20 +74,35 @@
 						</a>
 						<ul class="dropdown-menu">
 							<li>							
-								<a href="examiner-add-student.jsp"><i class="fa fa-caret-right"></i>ADD</a>
+								<a href="admin-add-student.jsp"><i class="fa fa-caret-right"></i>ADD</a>
 							</li>
 							<li>
-								<a href="examiner-student-list.jsp"><i class="fa fa-caret-right"></i>ALL STUDENT  </a>
+								<a href="admin-student-list.jsp"><i class="fa fa-caret-right"></i>ALL STUDENT  </a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
 					</li>
 					<li class="dropdown">
-						<a href="examiner-add-class.jsp"><i class="fa fa-graduation-cap menu-icon"></i> COURSES 	</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-user-secret menu-icon"></i> EXAMINERS <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li>							
+								<a href="admin-add-teacher.jsp"><i class="fa fa-caret-right"></i>ADD</a>
+							</li>
+							<li>
+								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL EXAMINERS</a>
+							</li>
+						</ul>
+						<div class="clearfix"></div>
+					</li>
+
+					<li class="dropdown">
+						<a href="admin-add-class.jsp"><i class="fa fa-graduation-cap menu-icon"></i> COURSES 	</a>
 						<div class="clearfix"></div>
 					</li>
 					<li class="dropdown">
-						<a href="examiner-add-subject.jsp"><i class="fa fa-book menu-icon"></i> EXAMINATION </a>
+						<a href="admin-add-subject.jsp"><i class="fa fa-book menu-icon"></i> EXAMINATION </a>
 						<div class="clearfix"></div>
 					</li>
 					<li class="dropdown">
@@ -98,16 +111,16 @@
 						</a>
 						<ul class="dropdown-menu">
 							<li>							
-								<a href="examiner-add-question.jsp"><i class="fa fa-caret-right"></i>ADD</a>
+								<a href="admin-add-question.jsp"><i class="fa fa-caret-right"></i>ADD</a>
 							</li>
 							<li>
-								<a href="examiner-all-questions.jsp"><i class="fa fa-caret-right"></i>ALL QUESSTIONS</a>
+								<a href="admin-all-questions.jsp"><i class="fa fa-caret-right"></i>ALL QUESSTIONS</a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
 					</li>
 					<li class="dropdown">
-						<a href="examiner-marks-report.jsp"><i class="fa fa-address-card menu-icon"></i> REPORTS </a>
+						<a href="teacher-marks-report.jsp"><i class="fa fa-address-card menu-icon"></i> REPORTS </a>
 						<div class="clearfix"></div>
 					</li>
 				</ul>

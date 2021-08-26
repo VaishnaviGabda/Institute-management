@@ -9,7 +9,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>Examiner Login</title>
+        <title>staff Login</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -42,7 +42,7 @@
 		      }
 		      else
 		      {
-		    	  var data="Please Enter Valid Examiner Id";
+		    	  var data="Please Enter Valid staff Id";
                   e.innerHTML=data;
 		           return false;
 		      }
@@ -91,7 +91,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-12 clear-padding-xs">
-							<h5 class="page-title">Welcome Examiner Please Login Here</h5>
+							<h5 class="page-title">Welcome staff Please Login Here</h5>
 							<div class="section-divider"></div>
 						</div>
 					</div>
@@ -102,17 +102,17 @@
 								<div class="dash-item first-dash-item">
 									<div class="inner-item">
 										<form class="dash-form" name="form1">
-											<label class="clear-top-margin"><i class="fa fa-book"></i>Examiner Id</label>
-											<input type="text" placeholder="Enter Examiner Id Here" name="text1" onblur="allnumeric(document.form1.text1)"/>
+											<label class="clear-top-margin"><i class="fa fa-book"></i>staff Id</label>
+											<input type="text" placeholder="Enter staff Id Here" name="text1" onblur="allnumeric(document.form1.text1)"/>
 											<span id="exId" style="color:red;"></span><br><br>
 
-											<label class="clear-top-margin"><i class="fa fa-book"></i>Examiner Password</label>
-											<input type="text" placeholder="Enter Examiner Password Here" name="text2" onblur="passwordvalid(document.form1.text2)"/>
+											<label class="clear-top-margin"><i class="fa fa-book"></i>staff Password</label>
+											<input type="text" placeholder="Enter staff Password Here" name="text2" onblur="passwordvalid(document.form1.text2)"/>
 											<span id="exPass" style="color:red;"></span>
 
 											<div>
-												<a href="examinerDashboard.jsp"><i class="fa fa-paper-plane"></i> Login</a>
-                                                <a href="examinerRegister.jsp"><i class="fa fa-paper-plane"></i> Register</a>
+												<a href="staffDashboard.jsp"><i class="fa fa-paper-plane"></i> Login</a>
+                                                <a href="staffRegister.jsp"><i class="fa fa-paper-plane"></i> Register</a>
 											</div>
 										</form>
 									</div>

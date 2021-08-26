@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>Admin - Examiners List</title>
+        <title>Admin - staffs List</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -84,14 +84,14 @@
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<i class="fa fa-user-secret menu-icon"></i> EXAMINERS <span class="caret"></span>
+							<i class="fa fa-user-secret menu-icon"></i> staffS <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li>							
 								<a href="admin-add-teacher.jsp"><i class="fa fa-caret-right"></i>ADD</a>
 							</li>
 							<li>
-								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL EXAMINERS</a>
+								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL staffS</a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
@@ -131,7 +131,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-12 clear-padding-xs">
-							<h5 class="page-title"><i class="fa fa-user-secret"></i>ALL Examiners</h5>
+							<h5 class="page-title"><i class="fa fa-user-secret"></i>ALL staffs</h5>
 							<div class="section-divider"></div>
 						</div>
 					</div>
@@ -139,7 +139,7 @@
 						<div class="col-lg-12 clear-padding-xs">
 							<div class="col-lg-12">
 								<div class="dash-item first-dash-item">
-									<h6 class="item-title"><i class="fa fa-user"></i>Examiners</h6>
+									<h6 class="item-title"><i class="fa fa-user"></i>staffs</h6>
 									<div class="inner-item">
 										<table id="attendenceDetailedTable" class="display responsive nowrap" cellspacing="0" width="100%">
 											<thead>
@@ -202,7 +202,7 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h4 class="modal-title"><i class="fa fa-trash"></i>DELETE Examiner</h4>
+								<h4 class="modal-title"><i class="fa fa-trash"></i>DELETE staff</h4>
 							</div>
 							<div class="modal-body">
 								<div class="table-action-box">
@@ -223,7 +223,7 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h4 class="modal-title"><i class="fa fa-edit"></i>EDIT Examiner's DETAILS</h4>
+								<h4 class="modal-title"><i class="fa fa-edit"></i>EDIT staff's DETAILS</h4>
 							</div>
 							<div class="modal-body dash-form">
 								<div class="col-sm-3">

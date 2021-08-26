@@ -84,14 +84,14 @@
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<i class="fa fa-user-secret menu-icon"></i> EXAMINERS <span class="caret"></span>
+							<i class="fa fa-user-secret menu-icon"></i> staffS <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li>							
 								<a href="admin-add-teacher.jsp"><i class="fa fa-caret-right"></i>ADD</a>
 							</li>
 							<li>
-								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL EXAMINERS</a>
+								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL staffS</a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>

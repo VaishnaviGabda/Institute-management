@@ -84,14 +84,14 @@
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<i class="fa fa-user-secret menu-icon"></i> EXAMINERS <span class="caret"></span>
+							<i class="fa fa-user-secret menu-icon"></i> staffS <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li>							
 								<a href="admin-add-teacher.jsp"><i class="fa fa-caret-right"></i>ADD</a>
 							</li>
 							<li>
-								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL EXAMINERS</a>
+								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL staffS</a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
@@ -152,7 +152,7 @@
 												<option>STD 5</option>
 												<option>STD 6</option>
 											</select>
-											<label><i class="fa fa-code"></i>Examiner</label>
+											<label><i class="fa fa-code"></i>staff</label>
 											<select>
 												<option>-- Select --</option>
 												<option>Lennore Doe</option>
@@ -179,7 +179,7 @@
 													<th><i class="fa fa-book"></i>NAME</th>
 													<th><i class="fa fa-code"></i>CODE</th>
 													<th><i class="fa fa-cogs"></i>CLASS</th>
-													<th><i class="fa fa-user-secret"></i>Examiner</th>
+													<th><i class="fa fa-user-secret"></i>staff</th>
 													<th><i class="fa fa-info-circle"></i>DESCRIPTION</th>
 													<th><i class="fa fa-sliders"></i>ACTION</th>
 												</tr>
@@ -266,7 +266,7 @@
 									</select>
 								</div>
 								<div class="col-sm-3">
-									<label class="clear-top-margin"><i class="fa fa-user-secret"></i>Examiner</label>
+									<label class="clear-top-margin"><i class="fa fa-user-secret"></i>staff</label>
 									<select>
 										<option>-- Select --</option>
 										<option>Lennore</option>

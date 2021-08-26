@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>Admin - Add Examiner</title>
+        <title>Admin - Add staff</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -302,14 +302,14 @@
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<i class="fa fa-user-secret menu-icon"></i> EXAMINERS <span class="caret"></span>
+							<i class="fa fa-user-secret menu-icon"></i> staffS <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li>							
 								<a href="admin-add-teacher.jsp"><i class="fa fa-caret-right"></i>ADD</a>
 							</li>
 							<li>
-								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL EXAMINERS</a>
+								<a href="admin-teacher-list.jsp"><i class="fa fa-caret-right"></i>ALL staffS</a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
@@ -349,7 +349,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-12 clear-padding-xs">
-							<h5 class="page-title"><i class="fa fa-user-secret"></i>ADD Examiner</h5>
+							<h5 class="page-title"><i class="fa fa-user-secret"></i>ADD staff</h5>
 							<div class="section-divider"></div>
 						</div>
 					</div>
@@ -358,7 +358,7 @@
 						<div class="col-lg-8 clear-padding-xs">
 							<div class="">
 								<div class="dash-item first-dash-item">
-									<h6 class="item-title"><i class="fa fa-user"></i>Examiner INFO</h6>
+									<h6 class="item-title"><i class="fa fa-user"></i>staff INFO</h6>
 									<div class="inner-item">
 										<form class="dash-form" name="form1">
 											<table class="table table">
@@ -511,7 +511,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td colspan="2" style="text-align: center;"><a href=""><i class="fa fa-paper-plane"></i> Add Examiner</a></td>
+														<td colspan="2" style="text-align: center;"><a href=""><i class="fa fa-paper-plane"></i> Add staff</a></td>
 													</tr>
 												</tbody>
 											</table>

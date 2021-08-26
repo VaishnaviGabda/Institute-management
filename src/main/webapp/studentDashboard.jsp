@@ -112,7 +112,7 @@
 										<div class="stats">
 											<div class="col-xs-8 count">
 												<h1>111</h1>
-												<p>EXAMINERS</p>
+												<p>staffS</p>
 											</div>
 											<div class="col-xs-4 icon">
 												<i class="fa fa-user-secret danger-icon"></i>
