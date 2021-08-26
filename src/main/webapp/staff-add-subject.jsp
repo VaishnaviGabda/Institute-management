@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>staff - Add Examination</title>
+        <title>Staff - Add Examination</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -164,7 +164,7 @@
 													<th><i class="fa fa-book"></i>NAME</th>
 													<th><i class="fa fa-code"></i>CODE</th>
 													<th><i class="fa fa-cogs"></i>CLASS</th>
-													<th><i class="fa fa-user-secret"></i>staff</th>
+													<th><i class="fa fa-user-secret"></i>Staff</th>
 													<th><i class="fa fa-info-circle"></i>DESCRIPTION</th>
 													<th><i class="fa fa-sliders"></i>ACTION</th>
 												</tr>

@@ -9,7 +9,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>staff Registration</title>
+        <title>Staff Registration</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -43,7 +43,7 @@
 		      }
 		      else
 		      {
-		    	  var data="Please Enter Valid staff Id";
+		    	  var data="Please Enter Valid Staff Id";
                   e.innerHTML=data;
 		           return false;
 		      }
@@ -63,7 +63,7 @@
 	        }
 	        else
 	        {
-	        	  var data="staff Name Should Contain Letters Only";
+	        	  var data="Staff Name Should Contain Letters Only";
 	              e.innerHTML=data;
 	              return false;
 	        }          
@@ -151,7 +151,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-12 clear-padding-xs" style="padding-top:0;">
-							<h5 class="page-title">Welcome staff Please Register Here</h5>
+							<h5 class="page-title">Welcome Staff Please Register Here</h5>
 							<div class="section-divider"></div>
 						</div>
 					</div>
@@ -162,24 +162,24 @@
 								<div class="dash-item first-dash-item">
 									<div class="inner-item" style="margin-top:0;padding-top:0;">
 										<form class="dash-form" name="form1">
-											<label class="clear-top-margin"><i class="fa fa-book"></i>staff Id</label>
-											<input type="text" placeholder="Enter staff Id Here" name="text1" onblur="allnumeric(document.form1.text1)"/>
+											<label class="clear-top-margin"><i class="fa fa-book"></i>Staff Id</label>
+											<input type="text" placeholder="Enter Staff Id Here" name="text1" onblur="allnumeric(document.form1.text1)"/>
 											<span id="exId" style="color:red;"></span><br><br>
 
-                                            <label class="clear-top-margin"><i class="fa fa-book"></i>staff Name</label>
-											<input type="text" placeholder="Enter staff Name Here" name="text2" onblur="allLetter(document.form1.text2)"/>
+                                            <label class="clear-top-margin"><i class="fa fa-book"></i>Staff Name</label>
+											<input type="text" placeholder="Enter Staff Name Here" name="text2" onblur="allLetter(document.form1.text2)"/>
 											<span id="Name1" style="color:red;"></span><br><br>
 
-                                            <label class="clear-top-margin"><i class="fa fa-book"></i>staff E-mail Id</label>
-											<input type="text" placeholder="Enter staff Email-Id Here" name="text3" onblur="ValidateEmail(document.form1.text3)"/>
+                                            <label class="clear-top-margin"><i class="fa fa-book"></i>Staff E-mail Id</label>
+											<input type="text" placeholder="Enter Staff Email-Id Here" name="text3" onblur="ValidateEmail(document.form1.text3)"/>
 											<span id="email" style="color:red;"></span><br><br>
 
-                                            <label class="clear-top-margin"><i class="fa fa-book"></i>staff Mobile Number</label>
-											<input type="text" placeholder="Enter staff Mobile Number Here" name="text4" onblur="phonenumber(document.form1.text4)" />
+                                            <label class="clear-top-margin"><i class="fa fa-book"></i>Staff Mobile Number</label>
+											<input type="text" placeholder="Enter Staff Mobile Number Here" name="text4" onblur="phonenumber(document.form1.text4)" />
 											<span id="phNo" style="color:red;"></span><br><br>
 
 											<label class="clear-top-margin"><i class="fa fa-book"></i>Password</label>
-											<input type="text" placeholder="Enter staff Password Here" name="text5" onblur="passwordvalid(document.form1.text5)"/>
+											<input type="text" placeholder="Enter Staff Password Here" name="text5" onblur="passwordvalid(document.form1.text5)"/>
 											<span id="exPass" style="color:red;"></span>
 
 											<div>

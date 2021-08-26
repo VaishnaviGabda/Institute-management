@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>staff Dashboard</title>
+        <title>Staff Dashboard</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -114,7 +114,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-12 clear-padding-xs">
-							<h5 class="page-title"><i class="fa fa-home"></i>staff Dashboard</h5>
+							<h5 class="page-title"><i class="fa fa-home"></i>Staff Dashboard</h5>
 							<div class="section-divider"></div>
 							<div class="dashboard-stats">
 								<div class="col-sm-6 col-md-4">

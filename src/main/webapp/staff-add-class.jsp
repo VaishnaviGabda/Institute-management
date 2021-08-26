@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>staff - Add Course</title>
+        <title>Staff - Add Course</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -159,7 +159,7 @@
 												<tr>
 													<th><i class="fa fa-book"></i>COURSE</th>
 													<th><i class="fa fa-code"></i>COURSE CODE</th>
-													<th><i class="fa fa-user-secret"></i>COURSE staff</th>
+													<th><i class="fa fa-user-secret"></i>COURSE Staff</th>
 													<th><i class="fa fa-info-circle"></i>DESCRIPTION</th>
 													<th><i class="fa fa-sliders"></i>ACTION</th>
 												</tr>
@@ -246,7 +246,7 @@
 									<input type="text" placeholder="CLASS CODE" value="PTH05" />
 								</div>
 								<div class="col-sm-4">
-									<label class="clear-top-margin"><i class="fa fa-user-secret"></i>COURSE staff</label>
+									<label class="clear-top-margin"><i class="fa fa-user-secret"></i>COURSE Staff</label>
 									<select>
 										<option>-- Select --</option>
 										<option>Lennore Doe</option>

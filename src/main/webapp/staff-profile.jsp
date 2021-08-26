@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="">
-        <title>staff - Profile</title>
+        <title>Staff - Profile</title>
 
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -114,7 +114,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-12 clear-padding-xs">
-							<h5 class="page-title"><i class="fa fa-user"></i>staff PROFILE</h5>
+							<h5 class="page-title"><i class="fa fa-user"></i>Staff PROFILE</h5>
 							<div class="section-divider"></div>
 						</div>
 					</div>
@@ -124,38 +124,38 @@
 							
 							<div class="col-md-10">
 								<div class="dash-item first-dash-item">
-									<h6 class="item-title"><i class="fa fa-user"></i>staff INFO</h6>
+									<h6 class="item-title"><i class="fa fa-user"></i>Staff INFO</h6>
 									<div class="inner-item">
 										<div class="dash-form">
 											<table class="table table">
 												<tbody>
 													<tr>
 														<td>
-															<label class="clear-top-margin"><i class="fa fa-id-card"></i>staff ID</label>
+															<label class="clear-top-margin"><i class="fa fa-id-card"></i>Staff ID</label>
 															<input type="text" placeholder="First Name" disabled/>
 														</td>
 													</tr>
 													<tr>
 														<td>
-															<label class="clear-top-margin"><i class="fa fa-user"></i>staff NAME</label>
+															<label class="clear-top-margin"><i class="fa fa-user"></i>Staff NAME</label>
 															<input type="text" placeholder="Last Name" disabled/>
 														</td>
 													</tr>
 													<tr>
 														<td>
-                                                            <label><i class="fa fa-phone"></i>staff PHONE #</label>
+                                                            <label><i class="fa fa-phone"></i>Staff PHONE #</label>
 															<input type="text" placeholder="1234567890" disabled/>
 														</td>
 													</tr>
 													<tr>
 														<td>
-															<label><i class="fa fa-envelope"></i>staff E-MAIL ID</label>
+															<label><i class="fa fa-envelope"></i>Staff E-MAIL ID</label>
 															<input type="text" placeholder="abc@gmail.com" disabled/>
 														</td>
 													</tr>
                                                     <tr>
 														<td>
-															<label><i class="fa fa-key"></i>staff PASSWORD</label>
+															<label><i class="fa fa-key"></i>Staff PASSWORD</label>
 															<input type="text" placeholder="abc@gmail.com" disabled/>
 														</td>
 													</tr>

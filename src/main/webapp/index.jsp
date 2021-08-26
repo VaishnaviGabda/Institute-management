@@ -59,7 +59,7 @@
 								<a href="adminLogin.jsp"><i class="fa fa-user"></i> Admin</a>
 							</li>
 							<li>
-								<a href="staffLogin.jsp"><i class="fa fa-user"></i> staff</a>
+								<a href="staffLogin.jsp"><i class="fa fa-user"></i> Staff</a>
 							</li>
 							<li>
 								<a href="studentLogin.jsp"><i class="fa fa-user"></i> Student</a>
